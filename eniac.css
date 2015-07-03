@@ -1,0 +1,280 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Schoolbell';
+		
+}
+body {
+	font: 18px/30px Sans-serif; color: #fff;
+	margin: 0;
+	padding: 0;
+}
+/*nav ul {
+	list-style: none; overflow: hidden; position: fixed;
+	top:20px;
+	left: 87%;
+	z-index: 100;
+
+	
+}
+	nav ul li {
+		margin: 20px 0 0 0;
+
+
+	}
+		nav ul li a {
+			display: table-cell; 
+			width: 120px; 
+			height: 121px;
+			text-decoration: none;
+			text-align: center;
+			vertical-align: middle;
+			
+		}
+			nav ul li:nth-child(1) a {
+				
+				background-image: url(Green.png);
+			}
+			nav ul li:nth-child(2) a {
+				background-color: #58ebd3;
+				background-position: 28px -96px;
+				background-image: url(Blue.png);
+			}
+			nav ul li:nth-child(3) a {
+				
+				background-image: url(Yellow.png);
+			}
+			nav ul li:nth-child(4) a {
+				
+				background-image: url(Red.png);
+			}
+		
+				nav ul li a span {
+					font-size: 27px;
+					font-family: 'Schoolbell', cursive;
+					color: black;
+					//text-transform: uppercase; 
+					left: 580px; top: 29px;
+
+										
+				}*/
+
+.meny {
+	
+	display: none;
+	padding: 20px;
+	overflow: auto;
+	background: #333;
+	color: #eee;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+	.meny ul {
+		margin-top: 10px;
+	}
+		.meny ul li {
+			display: inline-block;
+			width: 200px;
+			list-style: none;
+			font-size: 20px;
+			padding: 3px 10px;
+		}
+			.meny ul li:before {
+				content: '-';
+				margin-right: 5px;
+				color: rgba( 255, 255, 255, 0.2 );
+			}
+
+/**
+ * Hint graphic that appears while menu is inactive
+ */
+.meny-arrow {
+	position: absolute;
+	z-index: 10;
+
+	border: 10px solid transparent;
+
+	-webkit-transition: opacity 0.4s ease 0.4s;
+	   -moz-transition: opacity 0.4s ease 0.4s;
+	    -ms-transition: opacity 0.4s ease 0.4s;
+	     -o-transition: opacity 0.4s ease 0.4s;
+	        transition: opacity 0.4s ease 0.4s;
+}
+	.meny-left .meny-arrow {
+		left: 14px;
+		top: 50%;
+		margin-top: -16px;
+		border-left: 16px solid #333;
+	}
+	.meny-right .meny-arrow {
+		right: 14px;
+		top: 50%;
+		margin-top: -16px;
+		border-right: 16px solid #333;
+	}
+	.meny-top .meny-arrow {
+		left: 50%;
+		top: 14px;
+		margin-left: -16px;
+		border-top: 16px solid #333;
+	}
+	.meny-bottom .meny-arrow {
+		left: 50%;
+		bottom: 14px;
+		margin-left: -16px;
+		border-bottom: 16px solid #333;
+	}
+	.meny-active .meny-arrow {
+		opacity: 0;
+
+		-webkit-transition: opacity 0.2s ease;
+		   -moz-transition: opacity 0.2s ease;
+		    -ms-transition: opacity 0.2s ease;
+		     -o-transition: opacity 0.2s ease;
+		        transition: opacity 0.2s ease;
+	}				
+				
+
+section {
+	overflow: hidden;
+	
+	position: relative;
+}
+
+#intro { 
+background:
+linear-gradient(135deg,  transparent 24px, transparent 67px, #d9ecff 67px, black 9px, transparent 69px),
+linear-gradient(225deg,  transparent 24px, transparent 67px, black 67px, black 9px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+	
+	height: 993px;
+	
+	
+}
+
+#intro h1 {
+		/*width: 593px; height: 85px;*/
+		/*background: url(1text1.png); text-indent: -9999px;*/
+		position: relative;  left: 30%; top: 60%;
+		max-width: 100%; max-height: 100%;
+		font-size: 77px;
+
+	}
+#intro h2 {
+		
+		/*background: url(1head.png); text-indent: -9999px;*/
+		position: relative;  left: 40px;
+		font-size: 57px;
+		text-align: center;
+		
+		
+text-shadow:0px 0px 0 rgb(216,216,216),-1px 0px 0 rgb(186,186,186),-2px 0px 0 rgb(157,157,157),-3px 0px 0 rgb(127,127,127), -4px 0px 0 rgb(98,98,98),-5px 0px 4px rgba(0,0,0,0.55),-5px 0px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}	
+
+	#intro h3 {
+		width: 159px; height: 124px;
+		background: url(1scroll.png); text-indent: -9999px;
+		position: absolute;  left: 1000px; top: 400px;
+	}
+#two {
+
+	background-color: FloralWhite; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(LightGrey .1em, transparent .1em);
+background-size: 100% 1.2em;
+	height: 993px;
+}
+#two h1 {
+		width: 805px; height: 187px;
+		background: url(2head1.png); text-indent: -9999px;
+		position: relative;  left: 20px; top: 110px;
+	}
+#two h2 {
+		width: 885px; height: 320px;
+		background: url(2text1.png); text-indent: -9999px;
+		position: relative;  left: 20px; top: 170px;
+	}
+#two h3 {
+	width:304px; height:244px ;
+	background-image: url(2pic.png); text-indent: -9999px;
+	position: absolute; left: 960px; top: 400px;
+}
+#three {
+
+	background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#1a3348;
+background-size:16px 16px;
+	height: 993px;
+}
+#three h2 {
+		width: 1013px; height: 84px;
+		background: url(3head.png); text-indent: -9999px;
+		position: relative; left: 200px; top:10;
+	}
+#three h1 {
+		width: 1205px; height: 282px;
+		background: url(3text.png); text-indent: -9999px;
+		position: relative; left: 100px; top: 400px;
+	}
+#four {
+
+	background-color: gray;
+background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(47,79,79,.5) 35px, rgba(47,79,79,.5) 50px);
+	height: 993px;
+}
+#four h2 {
+		width: 489px; height: 148px;
+		background: url(4head.png); text-indent: -9999px;
+		position: relative; left: 200px; top:100px;
+	}
+#four h1 {
+		width: 358px; height: 68px;
+		background: url(4prog.png); text-indent: -9999px;
+		position: relative; left: 100px; top:200px;
+	}
+#four h3 {
+		width: 358px; height: 68px;
+		background: url(4game.png); text-indent: -9999px;
+		position: relative; left: 100px; top:250px;
+	}	
+#four h4 {
+		width: 358px; height: 68px;
+		background: url(4video.png); text-indent: -9999px;
+		position: relative; left: 100px; top:300px;
+	}
+#four h5 {
+		width: 358px; height: 68px;
+		background: url(4symp.png); text-indent: -9999px;
+		position: absolute; left: 700px; top:350px;
+	}
+#four h6 {
+		width: 421px; height: 68px;
+		background: url(4di.png); text-indent: -9999px;
+		position: absolute; left: 700px; top:450px;
+	}	
+
+
+
+#five {
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#166;
+background-size:16px 16px;
+	height:993px;
+}	
+#five h1 {
+		width: 995px; height: 596px;
+		background: url(5sched.png); text-indent: -9999px;
+		position: absolute; left: 60px; top:200px;
+	}	
